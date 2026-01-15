@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NEW VISUAL IDEAS LLC — Marketing, SEO, Branding, Design</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #FFD400;
+      color: #000;
+      line-height: 1.4;
+    }
+
+    section {
+      padding: 80px 60px;
+      border-bottom: 6px solid #000;
+    }
+
+    h1, h2, h3 {
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: 72px;
+      line-height: 1;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 48px;
+      margin-bottom: 40px;
+    }
+
+    h3 {
+      font-size: 26px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 18px;
+      max-width: 900px;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hero p {
+      font-size: 22px;
+      max-width: 800px;
+    }
+
+    .about {
+      display: flex;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .about img {
+      max-width: 400px;
+      border: 6px solid #000;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+    }
+
+    .card {
+      border: 6px solid #000;
+      padding: 30px;
+      background: #FFD400;
+    }
+
+    .process-step {
+      border-left: 8px solid #000;
+      padding-left: 30px;
+    }
+
+    .contact {
+      min-height: 100vh;
+      display: flex;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .contact-info {
+      flex: 1;
+    }
+
+    .contact-form {
+      flex: 1;
+      border: 6px solid #000;
+      padding: 40px;
+    }
+
+    input, textarea, button {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 20px;
+      border: 4px solid #000;
+      background: #FFD400;
+      font-size: 16px;
+    }
+
+    button {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      padding: 40px 60px;
+      border-top: 6px solid #000;
+      font-size: 14px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    @media (max-width: 900px) {
+      .about,
+      .contact {
+        flex-direction: column;
+      }
+
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 52px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 1. HERO -->
+  <section class="hero">
+    <h1>NEW VISUAL IDEAS LLC</h1>
+    <p>
+      We help brands grow through strategy-first marketing, search visibility, and visual identity that actually converts.
+      Our work sits at the intersection of performance, design, and clarity — built for companies that want measurable results,
+      not empty impressions.
+    </p>
+  </section>
+
+  <!-- 2. ABOUT -->
+  <section>
+    <h2>Who We Are & Why It Works</h2>
+
+    <div class="about">
+      <div>
+        <p>
+          NEW VISUAL IDEAS LLC is a marketing and branding studio focused on building strong digital foundations for growing businesses.
+          We don’t chase trends — we analyze markets, user behavior, and search intent before creating anything.
+          Our team works hands-on with every project, aligning strategy, design, and SEO into one system.
+          We believe branding should be functional, marketing should be measurable, and design should support business goals.
+          That’s why our clients come to us when clarity, structure, and growth matter.
+        </p>
+      </div>
+
+      <img src="https://images.unsplash.com/photo-1559523182-a284c3fb7cff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTR8fG9mZmljZSUyMHRlYW18ZW58MHx8MHx8fDA%3D" alt="Team work">
+    </div>
+  </section>
+
+  <!-- 3. SERVICES -->
+  <section>
+    <h2>What We Build for Brands</h2>
+
+    <div class="grid-3">
+      <div class="card">
+        <h3>Marketing Strategy & Growth</h3>
+        <p>
+          We design marketing systems based on real data, not assumptions.
+          From positioning to channel selection, every decision supports business objectives.
+          The result is predictable growth, not random traffic.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>SEO & Search Visibility</h3>
+        <p>
+          We build SEO around user intent, technical structure, and long-term authority.
+          Our approach improves rankings while increasing qualified leads.
+          Search becomes a growth channel, not a gamble.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Branding & Visual Design</h3>
+        <p>
+          We create brand identities that communicate clearly and scale easily.
+          Design is built to support trust, recognition, and conversion.
+          No decoration — only purpose-driven visuals.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. ADVANTAGES -->
+  <section>
+    <h2>Why Clients Choose Us</h2>
+
+    <div class="grid-3">
+      <div class="card">
+        <h3>Strategy Before Execution</h3>
+        <p>
+          We never design or market blindly.
+          Every project starts with research, structure, and clear objectives.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Business-Oriented Thinking</h3>
+        <p>
+          Our work is measured in leads, growth, and visibility.
+          We focus on outcomes, not just aesthetics.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Clear Communication</h3>
+        <p>
+          No jargon, no confusion.
+          Clients always understand what we do, why we do it, and what it brings.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. PROCESS -->
+  <section>
+    <h2>How We Work</h2>
+
+    <div class="grid-3">
+      <div class="process-step">
+        <h3>01 — Analysis</h3>
+        <p>
+          We research your market, competitors, audience, and digital footprint.
+          This phase defines direction and priorities.
+        </p>
+      </div>
+
+      <div class="process-step">
+        <h3>02 — Creation</h3>
+        <p>
+          Strategy turns into design, content, and structure.
+          Everything is built to work as one system.
+        </p>
+      </div>
+
+      <div class="process-step">
+        <h3>03 — Optimization</h3>
+        <p>
+          We test, measure, and improve continuously.
+          Growth is refined, not left to chance.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. CONTACT -->
+  <section class="contact">
+    <div class="contact-info">
+      <h2>Let’s Build Something That Works</h2>
+      <p>
+        If you’re looking for a marketing partner who thinks beyond templates and tactics,
+        we’re ready to talk. Reach out and tell us what you’re building —
+        we’ll help you shape it into a system that grows.
+      </p>
+      <br>
+      <p><strong>Email:</strong> welcome@newvisualideas.org</p>
+      <p><strong>Address:</strong> 849 Crestview Cir, Weston, FL, 33327, US</p>
+    </div>
+
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Your name">
+        <input type="email" placeholder="Your email">
+        <textarea rows="5" placeholder="Tell us about your project"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div>© 2026 NEW VISUAL IDEAS LLC</div>
+    <div>Marketing • SEO • Branding • Design</div>
+  </footer>
+
+</body>
+</html>
